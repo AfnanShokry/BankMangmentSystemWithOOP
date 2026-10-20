@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainScreen.cpp">
+    <ClCompile Include="BankMangmentSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -92,6 +92,24 @@
     <ClInclude Include="InterfascCommunication.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyExChange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrenciesList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindCurrencyScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateCurrencyScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyCalculatorScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C:\Users\lenovo\Desktop\a82qcrqSBGDBRmYe21us_Clients (1).txt">
@@ -101,6 +119,9 @@
       <Filter>Header Files</Filter>
     </Text>
     <Text Include="Users.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="Currencies (2).txt">
       <Filter>Header Files</Filter>
     </Text>
   </ItemGroup>

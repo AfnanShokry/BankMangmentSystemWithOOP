@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include "clsLoginScreen.h"
+#include"clsCurrency.h"
 
 int main()
 {
-	//clsMainScreen::ShowMainMenue();
+	
 	while (true)
 	{
 		if (!clsLoginScreen::ShowLoginScreen())
@@ -14,6 +15,8 @@ int main()
 			break;
 	     }
 	}
+	
+	system("pause>0");
 	return 0;
 
 

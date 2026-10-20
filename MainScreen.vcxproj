@@ -24,6 +24,7 @@
     <ProjectGuid>{6aa146c2-ad73-4498-995e-78c98bfd0867}</ProjectGuid>
     <RootNamespace>MainScreen</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BankManagmentSystem</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -125,16 +126,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MainScreen.cpp" />
+    <ClCompile Include="BankMangmentSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="claTransactionsMenueOptions.h" />
     <ClInclude Include="clsAddNewClient.h" />
     <ClInclude Include="clsAddNewUserScreen.h" />
+    <ClInclude Include="clsCurrenciesList.h" />
+    <ClInclude Include="clsCurrency.h" />
+    <ClInclude Include="clsCurrencyCalculatorScreen.h" />
+    <ClInclude Include="clsCurrencyExChange.h" />
     <ClInclude Include="clsDeleteClient.h" />
     <ClInclude Include="clsDeleteUserScreen.h" />
     <ClInclude Include="clsDepositScreen.h" />
     <ClInclude Include="clsFindClient.h" />
+    <ClInclude Include="clsFindCurrencyScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
     <ClInclude Include="clsLoginRegister.h" />
     <ClInclude Include="clsLoginScreen.h" />
@@ -144,6 +150,7 @@
     <ClInclude Include="clsTotalBalancesScreen.h" />
     <ClInclude Include="clsTransfer.h" />
     <ClInclude Include="clsUpdateClient.h" />
+    <ClInclude Include="clsUpdateCurrencyScreen.h" />
     <ClInclude Include="clsUpdateUserScreen.h" />
     <ClInclude Include="clsUser.h" />
     <ClInclude Include="clsUserListScreen.h" />
@@ -155,6 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="C:\Users\lenovo\Desktop\a82qcrqSBGDBRmYe21us_Clients (1).txt" />
+    <Text Include="Currencies (2).txt" />
     <Text Include="TransferLogin.txt" />
     <Text Include="Users.txt" />
   </ItemGroup>
