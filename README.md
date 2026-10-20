@@ -27,6 +27,4 @@
 ## 🚀 كيفية التشغيل
 (How to Run)
 https://github.com/AfnanShokry/BankMangmentSystemWithOOP
-1. قم بنسخ المستودع إلى جهازك:
-   ```bash
-   git clone [https://github.com/AfnanShokry/Bank_Management_System.git](https://github.com/AfnanShokry/Bank_Management_System.git)
+   
